@@ -1,0 +1,55 @@
+{
+  "name": "Calculadora Científica - Floresta Lunar",
+  "short_name": "Calc Lunar",
+  "description": "Uma calculadora científica temática com floresta lunar e lobo 🐺🌕",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f0c29",
+  "theme_color": "#6432c8",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231a1a2e' width='192' height='192'/><text x='50%' y='50%' font-size='100' font-weight='bold' text-anchor='middle' dy='.3em' fill='%2300ff88'>🐺</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231a1a2e' width='192' height='192'/><text x='50%' y='50%' font-size='100' font-weight='bold' text-anchor='middle' dy='.3em' fill='%2300ff88'>🐺</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%236432c8' width='192' height='192' rx='45'/><text x='50%' y='50%' font-size='100' font-weight='bold' text-anchor='middle' dy='.3em' fill='%23fff'>🐺</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%230f0c29' width='540' height='720'/><text x='50%' y='50%' font-size='80' text-anchor='middle' dy='.3em' fill='%2300ff88' font-family='Arial'>Calculadora</text><text x='50%' y='60%' font-size='120' text-anchor='middle' fill='%23d0b0ff' font-family='Arial'>🐺🌕</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Abrir Calculadora",
+      "short_name": "Calcular",
+      "description": "Abra a calculadora científica lunar",
+      "url": "/?mode=calc",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%236432c8' width='96' height='96' rx='20'/><text x='50%' y='50%' font-size='60' text-anchor='middle' dy='.3em' fill='%23fff'>🧮</text></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ]
+}

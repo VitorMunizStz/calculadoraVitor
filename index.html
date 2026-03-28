@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Científica - Floresta Lunar 🐺🌕</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="calculadora">
+    <input type="text" id="display" readonly placeholder="0">
+
+    <div class="botoes">
+      <!-- Linha 1 - Funções científicas -->
+      <button class="cientifica" data-value="sin(">sin</button>
+      <button class="cientifica" data-value="cos(">cos</button>
+      <button class="cientifica" data-value="tan(">tan</button>
+      <button class="cientifica" data-value="log(">log</button>
+      <button class="cientifica" data-value="ln(">ln</button>
+      <button class="cientifica" data-value="sqrt(">√</button>
+
+      <!-- Linha 2 - Parênteses, constantes e limpar -->
+      <button class="cientifica" data-value="(">(</button>
+      <button class="cientifica" data-value=")">)</button>
+      <button class="cientifica" data-value="π">π</button>
+      <button class="cientifica" data-value="e">e</button>
+      <button class="cientifica" data-value="^">^</button>
+      <button class="limpar" id="clear">C</button>
+
+      <!-- Linha 3 - 7 8 9 ÷ % ± -->
+      <button class="numero" data-value="7">7</button>
+      <button class="numero" data-value="8">8</button>
+      <button class="numero" data-value="9">9</button>
+      <button class="operador" data-value="/">÷</button>
+      <button class="cientifica" data-value="%">%</button>
+      <button class="cientifica" id="toggle-sinal">±</button>
+
+      <!-- Linha 4 - 4 5 6 × 🌲 🌲 -->
+      <button class="numero" data-value="4">4</button>
+      <button class="numero" data-value="5">5</button>
+      <button class="numero" data-value="6">6</button>
+      <button class="operador" data-value="*">×</button>
+      <div class="floresta"><span>🌲</span></div>
+      <div class="floresta"><span>🌲</span></div>
+
+      <!-- Linha 5 - 1 2 3 − 🐾 🌕 -->
+      <button class="numero" data-value="1">1</button>
+      <button class="numero" data-value="2">2</button>
+      <button class="numero" data-value="3">3</button>
+      <button class="operador" data-value="-">−</button>
+      <div class="garras"><span>🐾</span></div>
+      <div class="lua"><span>🌕</span></div>
+
+      <!-- Linha 6 - 0 (span 2) . = + 🐺 -->
+      <button class="numero zero" data-value="0">0</button>
+      <button class="numero" data-value=".">.</button>
+      <button class="igual" id="igual">=</button>
+      <button class="operador" data-value="+">+</button>
+      <div class="lobo-container">
+        <span class="lobo-emoji">🐺</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+     

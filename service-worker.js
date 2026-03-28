@@ -1,11 +1,11 @@
 // Service Worker - Calculadora Científica Floresta Lunar
 const CACHE_NAME = 'calculadora-lunar-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/manifest.json'
+  './',
+  './index.html',
+  './style.css',
+  './script.js',
+  './manifest.json'
 ];
 
 // Instalação do Service Worker

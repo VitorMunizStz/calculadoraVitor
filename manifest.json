@@ -2,12 +2,12 @@
   "name": "Calculadora Científica - Floresta Lunar",
   "short_name": "Calc Lunar",
   "description": "Uma calculadora científica temática com floresta lunar e lobo 🐺🌕",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#0f0c29",
   "theme_color": "#6432c8",
-  "scope": "/",
+  "scope": "./",
   "icons": [
     {
       "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231a1a2e' width='192' height='192'/><text x='50%' y='50%' font-size='100' font-weight='bold' text-anchor='middle' dy='.3em' fill='%2300ff88'>🐺</text></svg>",
@@ -42,7 +42,7 @@
       "name": "Abrir Calculadora",
       "short_name": "Calcular",
       "description": "Abra a calculadora científica lunar",
-      "url": "/?mode=calc",
+      "url": "./?mode=calc",
       "icons": [
         {
           "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%236432c8' width='96' height='96' rx='20'/><text x='50%' y='50%' font-size='60' text-anchor='middle' dy='.3em' fill='%23fff'>🧮</text></svg>",
